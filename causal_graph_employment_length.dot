@@ -1,8 +1,8 @@
 digraph {
-emp_length[label="Employment length"];
+emp_length[color=green, style=filled, label="Employment length"];
 state;
 is_homeowner;
-annual_income[color=green, style=filled];
+annual_income;
 debt_to_income[label="Debt-to-income ratio"];
 num_satisfactory_accounts[label="# Satisfactory accounts"];
 num_active_debit_accounts[label="# Active debit accounts"];
@@ -28,7 +28,7 @@ has_past_due_accounts[label="Has pastdue accounts"];
 debt_limit_exceded;
 is_bad_loan[color=red,style=filled];
 U[label="Unobserved Confounders"];
-U -> {is_bad_loan, state, annual_income};
+U -> {is_bad_loan, state, emp_length};
 {emp_length, is_homeowner, annual_income} -> is_bad_loan;
 {emp_length ,state} -> annual_income;
 is_homeowner -> num_mort_accounts;
@@ -41,8 +41,7 @@ credit_line_utilization -> is_bad_loan; credit_utilization -> is_bad_loan; cc_ut
 emp_length -> total_debit_limit;
 annual_income -> {credit_line_utilization,credit_utilization, cc_utilization,credit_duration };
 annual_income -> {num_active_debit_accounts,total_debit_limit };
-{has_accounts_opened_24m } -> is_bad_loan;
-{loan_amount, term, interest_rate, installment, balance, paid_total} -> is_bad_loan;
+{loan_amount, term, interest_rate, installment, balance, paid_total, has_accounts_opened_24m} -> is_bad_loan;
 {num_cc_carrying_balance,debt_to_income, num_satisfactory_accounts, num_cc_carrying_balance} -> is_bad_loan;
 {credit_duration,total_debit_limit, num_active_debit_accounts } -> is_bad_loan;
 {num_mort_accounts,has_credit_inquiries_last_12m} -> is_bad_loan;

@@ -1,7 +1,7 @@
 digraph {
 emp_length[label="Employment length"];
 state;
-is_homeowner;
+is_homeowner[color=green, style=filled];
 annual_income;
 debt_to_income[label="Debt-to-income ratio"];
 num_satisfactory_accounts[label="# Satisfactory accounts"];
@@ -26,7 +26,7 @@ has_accounts_opened_24m[label="Has accounts opened in last 2 years"];
 has_bankrupt_history[label="Has been bankrupt"];
 has_past_due_accounts[label="Has pastdue accounts"];
 debt_limit_exceded;
-is_bad_loan;
+is_bad_loan[color=red,style=filled];
 U[label="Unobserved Confounders"];
 U -> {is_bad_loan, state, is_homeowner};
 {emp_length, is_homeowner, annual_income} -> is_bad_loan;
@@ -44,5 +44,5 @@ annual_income -> {num_active_debit_accounts,total_debit_limit };
 {loan_amount, term, interest_rate, installment, balance, paid_total, has_accounts_opened_24m} -> is_bad_loan;
 {num_cc_carrying_balance,debt_to_income, num_satisfactory_accounts, num_cc_carrying_balance} -> is_bad_loan;
 {credit_duration,total_debit_limit, num_active_debit_accounts } -> is_bad_loan;
-{num_mort_accounts,has_credit_inquiries_last_12m} -> is_bad_loan
+{num_mort_accounts,has_credit_inquiries_last_12m} -> is_bad_loan;
 }
