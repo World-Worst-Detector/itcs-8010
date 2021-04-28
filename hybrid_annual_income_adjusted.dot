@@ -1,7 +1,7 @@
 digraph {
 	U;
 	emp_length;
-	annual_income;
+	annual_income[color=green, style=filled];
 	total_debit_limit;
 	emp_length -> total_debit_limit;
 	loan_amount;
@@ -63,7 +63,7 @@ digraph {
 	has_past_due_accounts;
 	debt_limit_exceded;
 	is_bad_loan[color=red, style=filled];
-	is_homeowner[color=green, style=filled];
+	is_homeowner;
 	is_homeowner -> total_debit_limit;
 
 	/* manual relationships */
@@ -71,5 +71,5 @@ digraph {
     {installment, num_active_debit_accounts, has_collection_accounts,num_cc_carrying_balance} -> is_bad_loan ;
 	{emp_length, is_homeowner, annual_income} -> is_bad_loan ;
 	{delinquent_history, has_credit_inquiries_last_12m, has_accounts_opened_24m, has_bankrupt_history, has_past_due_accounts, debt_limit_exceded} -> is_bad_loan;
-    U -> {is_bad_loan, state, is_homeowner};
+    U -> {is_bad_loan, state, annual_income};
 }
