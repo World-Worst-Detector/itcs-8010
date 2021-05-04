@@ -1,0 +1,2071 @@
+strict digraph "" {
+	graph [bb="0,0,1453.4,164",
+		bgcolor="#001521",
+		dpi=300,
+		fontcolor="#FFFFFFD9",
+		fontname=Helvetica,
+		overlap=scale,
+		pad="0.8,0.3",
+		scale=0.5,
+		splines=True
+	];
+	node [label="\N"];
+	emp_length	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="emp_length
+
+ ",
+		penwidth=1,
+		pos="405.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	total_credit_limit	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="total_credit_limit
+
+ ",
+		penwidth=1,
+		pos="279.15,2",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	emp_length -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,280.86,3.3934 402.94,80.919 394.23,76.625 361.49,60.216 336.15,44 316.22,31.247 294.03,13.925 284.25,6.1164",
+		weight=170.3893474769111];
+	total_credit_utilized	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="total_credit_utilized
+
+ ",
+		penwidth=1,
+		pos="347.15,42",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	emp_length -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.14,43.377 403.22,80.669 395.31,75.213 365.18,54.438 352.66,45.801",
+		weight=-28.949055319319193];
+	total_debit_limit	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="total_debit_limit
+
+ ",
+		penwidth=1,
+		pos="597.15,42",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	emp_length -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.01,42.446 407.3,81.551 426,77.656 560.65,49.604 591.06,43.269",
+		weight=5.4933127010721545];
+	total_credit_utilized -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,280.99,3.0828 345.19,40.846 336.19,35.553 298.69,13.498 284.57,5.187",
+		weight=1.419476325733468];
+	total_debit_limit -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.31,2.272 595.12,41.745 570.41,38.637 327.89,8.1311 285.46,2.7945",
+		weight=1.66546327845091];
+	state	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="state
+
+ ",
+		penwidth=1,
+		pos="1039.1,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	state -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.29,2.0859 1037.1,81.594 1019.6,78.08 891.36,52.65 786.15,40 581.51,15.396 328.36,4.0605 285.46,2.2587",
+		weight=-120.15715772734454];
+	state -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.24,42.121 1036.9,81.871 996.44,79.531 419.84,46.202 353.38,42.36",
+		weight=56.40317270703084];
+	homeownership	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="homeownership
+
+ ",
+		penwidth=1,
+		pos="465.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	homeownership -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,280.99,2.7918 463.06,81.102 444.87,73.28 313.41,16.738 284.68,4.3813",
+		weight=-58.878504187812666];
+	homeownership -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.25,42.713 463.1,81.306 449.78,76.792 375.36,51.565 353.31,44.089",
+		weight=6.719085346812609];
+	homeownership -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.19,42.593 467.44,81.306 482.52,76.734 567.72,50.917 591.17,43.811",
+		weight=0.8912143395940199];
+	annual_income	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="annual_income
+
+ ",
+		penwidth=1,
+		pos="487.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	annual_income -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.2,2.6845 485.24,81.161 475.1,76.719 426.55,55.563 386.15,40 348.14,25.359 301.78,9.5971 285.31,4.0616",
+		weight=37.110259988253254];
+	annual_income -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.26,42.602 485.17,81.435 470.46,77.233 378.08,50.839 353.27,43.75",
+		weight=4.772876321012078];
+	annual_income -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.19,42.713 489.06,81.306 501.47,76.792 570.84,51.565 591.4,44.089",
+		weight=2.5185633303375714];
+	verified_income	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="verified_income
+
+ ",
+		penwidth=1,
+		pos="1205.1,162",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	verified_income -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.28,2.0361 1207.3,161.59 1209.6,161.18 1213.1,160.53 1216.1,160 1264.7,151.59 1400.5,159.12 1435.1,124 1461.5,97.325 1458.1,\
+62.517 1428.1,40 1403.7,21.64 374.76,3.6359 285.33,2.1051",
+		weight=-6.032081986219609];
+	debt_to_income	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="debt_to_income
+
+ ",
+		penwidth=1,
+		pos="17.147,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	debt_to_income -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,276.8,2.1675 18.793,80.732 26.297,75.021 58.183,51.46 88.147,40 157.42,13.505 248.23,4.5143 272.79,2.4839",
+		weight=-150.81886863885174];
+	debt_to_income -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,345.12,42.194 19.332,81.562 21.547,81.128 25.076,80.462 28.147,80 153.79,61.112 308.44,45.748 340.97,42.594",
+		weight=260.0497588008936];
+	debt_to_income -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.09,42.047 19.327,81.528 21.539,81.068 25.065,80.382 28.147,80 258.99,51.399 545.37,43.289 590.92,42.148",
+		weight=8.373062343264063];
+	total_collection_amount_ever	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="total_collection_amount_ever
+
+ ",
+		penwidth=1,
+		pos="135.15,42",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	debt_to_income -> total_collection_amount_ever	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,133.04,42.713 19.195,81.306 32.511,76.792 106.93,51.565 128.99,44.089",
+		weight=0.9417057491544062];
+	months_since_last_delinq	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="months_since_last_delinq
+
+ ",
+		penwidth=1,
+		pos="105.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	months_since_last_delinq -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,276.92,2.277 105.48,79.665 106.63,72.53 111.1,50.842 124.15,40 147.72,20.415 246.32,6.2991 272.66,2.8278",
+		weight=209.78104526426876];
+	months_since_last_delinq -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,344.87,42.36 107.34,81.591 109.56,81.179 113.09,80.53 116.15,80 205.12,64.594 313.65,47.308 340.77,43.008",
+		weight=25.634993850996732];
+	months_since_last_delinq -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.11,42.081 107.33,81.536 109.54,81.082 113.07,80.401 116.15,80 309.72,54.821 549.45,43.995 590.9,42.255",
+		weight=-62.58929258525672];
+	months_since_last_delinq -> total_collection_amount_ever	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,133.9,43.668 106.44,80.281 110.72,74.576 124.56,56.113 131.34,47.077",
+		weight=1.2752824406346577];
+	earliest_credit_line	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="earliest_credit_line
+
+ ",
+		penwidth=1,
+		pos="531.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	earliest_credit_line -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.19,2.4543 529.1,81.115 518.23,76.437 466.13,54.271 422.15,40 369.89,23.043 305.14,7.8965 285.24,3.3708",
+		weight=351.75441343783683];
+	earliest_credit_line -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.2,42.446 529.08,81.551 511.24,77.672 383.19,49.835 353.35,43.348",
+		weight=11.431227325900554];
+	earliest_credit_line -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.36,43.083 533.05,80.846 541.79,75.553 578.18,53.498 591.89,45.187",
+		weight=50.68914729473337];
+	inquiries_last_12m	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="inquiries_last_12m
+
+ ",
+		penwidth=1,
+		pos="553.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	inquiries_last_12m -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.45,2.4305 551.03,81.099 539.77,76.338 485.82,53.82 440.15,40 380.86,22.06 307.19,7.3755 285.46,3.1955",
+		weight=77.8252357860145];
+	inquiries_last_12m -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.19,42.396 550.83,81.551 530.69,77.64 385.1,49.369 353.28,43.191",
+		weight=11.217503871459106];
+	inquiries_last_12m -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.31,43.668 555.04,80.281 561.48,74.421 582.73,55.106 592.35,46.365",
+		weight=-4.760982650714834];
+	total_credit_lines	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="total_credit_lines
+
+ ",
+		penwidth=1,
+		pos="193.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	total_credit_lines -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,278.36,4.163 195.33,81.14 203.92,77.672 235.81,63.939 255.15,44 265.61,33.216 273.17,16.997 276.77,8.2028",
+		weight=373.4483280478408];
+	total_credit_lines -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,344.83,42.602 195.32,81.435 211.57,77.215 313.97,50.618 340.75,43.663",
+		weight=288.0461160958559];
+	total_credit_lines -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.15,42.197 195.32,81.785 224.68,78.878 542.43,47.417 590.95,42.614",
+		weight=91.79926638720448];
+	total_credit_lines -> total_collection_amount_ever	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,137.14,43.377 191.22,80.669 183.31,75.213 153.18,54.438 140.66,45.801",
+		weight=1.065742929140613];
+	open_credit_lines	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="open_credit_lines
+
+ ",
+		penwidth=1,
+		pos="127.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	open_credit_lines -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,277.28,2.9808 129.3,80.869 145.47,72.359 248.12,18.332 273.48,4.9803",
+		weight=76.64735578731586];
+	open_credit_lines -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,344.97,42.396 129.62,81.551 151.21,77.624 307.9,49.136 341.01,43.116",
+		weight=119.02850952265946];
+	open_credit_lines -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,594.9,42.101 129.33,81.539 131.54,81.086 135.07,80.406 138.15,80 322.12,55.718 549.75,44.232 590.69,42.297",
+		weight=79.37373552379516];
+	open_credit_lines -> total_collection_amount_ever	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,134.75,43.97 127.58,79.849 128.76,73.935 132.1,57.259 133.92,48.141",
+		weight=0.8355019204493206];
+	num_historical_failed_to_pay	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="num_historical_failed_to_pay
+
+ ",
+		penwidth=1,
+		pos="246.15,162",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	num_historical_failed_to_pay -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.19,42.707 248.21,161.43 262.59,157.47 349.35,133.82 421.15,120 475.62,109.52 631.86,125.96 668.15,84 678.17,72.416 621.89,\
+50.873 603.1,44.096",
+		weight=-1.754430786661711];
+	months_since_90d_late	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="months_since_90d_late
+
+ ",
+		penwidth=1,
+		pos="83.147,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	months_since_90d_late -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,276.86,2.3278 84.121,80.033 87.578,73.266 99.982,50.77 117.15,40 144.33,22.945 246.35,6.8717 272.83,2.9218",
+		weight=217.83802034543675];
+	months_since_90d_late -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,345.12,42.28 85.335,81.582 87.552,81.163 91.083,80.508 94.147,80 192.32,63.706 312.45,46.826 340.9,42.866",
+		weight=3.2406032914202303];
+	months_since_90d_late -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.02,42.074 85.328,81.534 87.54,81.078 91.067,80.395 94.147,80 296.98,53.971 548.28,43.81 590.88,42.226",
+		weight=-80.3646635498553];
+	months_since_90d_late -> total_collection_amount_ever	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,133.36,43.377 84.877,80.669 91.909,75.26 118.51,54.798 129.91,46.029",
+		weight=3.5158431161477504];
+	current_installment_accounts	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="current_installment_accounts
+
+ ",
+		penwidth=1,
+		pos="657.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	current_installment_accounts -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.29,2.0776 657.3,79.62 657.61,72.355 657.46,50.332 645.15,40 616.34,15.836 330.99,3.9789 285.3,2.2287",
+		weight=-45.459980485008465];
+	current_installment_accounts -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.24,42.27 654.83,81.701 628.95,78.362 394.29,48.083 353.26,42.788",
+		weight=134.6874384141436];
+	current_installment_accounts -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.25,43.4 655.42,80.846 647.62,75.645 615.55,54.266 602.6,45.637",
+		weight=-15.472807288757151];
+	accounts_opened_24m	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="accounts_opened_24m
+
+ ",
+		penwidth=1,
+		pos="61.147,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	accounts_opened_24m -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,276.99,2.0845 62.439,80.396 67.587,74.117 87.421,51.019 109.15,40 167.82,10.241 249.54,3.6183 272.76,2.3002",
+		weight=99.72789994892165];
+	accounts_opened_24m -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,344.94,42.269 63.334,81.574 65.55,81.149 69.08,80.49 72.147,80 179.22,62.876 310.49,46.501 340.73,42.784",
+		weight=16.51958229014474];
+	accounts_opened_24m -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,594.93,42.068 63.328,81.532 65.54,81.074 69.066,80.39 72.147,80 284.27,53.118 547.21,43.631 590.87,42.198",
+		weight=9.921586284519096];
+	accounts_opened_24m -> total_collection_amount_ever	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,133.38,42.954 62.976,81.011 72.255,75.996 114.27,53.286 129.56,45.02",
+		weight=0.8793681070311158];
+	months_since_last_credit_inquiry	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="months_since_last_credit_inquiry
+
+ ",
+		penwidth=1,
+		pos="1061.1,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	months_since_last_credit_inquiry -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.4,2.0764 1059.2,81.589 1042,78.038 916.34,52.351 813.15,40 597.22,14.156 329.91,3.8099 285.53,2.2214",
+		weight=11.732646844051631];
+	months_since_last_credit_inquiry -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.33,42.462 1059,81.538 1056.8,81.084 1053.2,80.404 1050.1,80 854.73,54.34 803.56,69.66 608.15,44 606.61,43.798 604.96,43.527 \
+603.41,43.249",
+		weight=2.7793005827314796];
+	num_satisfactory_accounts	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="num_satisfactory_accounts
+
+ ",
+		penwidth=1,
+		pos="39.147,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	num_satisfactory_accounts -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,276.91,2.1346 40.851,80.402 47.618,74.15 73.485,51.135 99.147,40 163.16,12.226 249,4.1821 272.8,2.4201",
+		weight=76.08199015689036];
+	num_satisfactory_accounts -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,345.02,42.229 41.333,81.568 43.548,81.138 47.078,80.475 50.147,80 166.69,61.962 309.92,46.052 341.01,42.664",
+		weight=118.83403238087891];
+	num_satisfactory_accounts -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,594.83,42.062 41.328,81.53 43.539,81.071 47.066,80.386 50.147,80 271.16,52.317 545.12,43.494 590.61,42.181",
+		weight=79.58964031571644];
+	num_satisfactory_accounts -> total_collection_amount_ever	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,133.15,42.831 41.152,81.165 52.67,76.366 110.55,52.249 129.29,44.443",
+		weight=0.8363550635882094];
+	num_accounts_120d_past_due	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="num_accounts_120d_past_due
+
+ ",
+		penwidth=1,
+		pos="1227.1,162",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	num_accounts_30d_past_due	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="num_accounts_30d_past_due
+
+ ",
+		penwidth=1,
+		pos="1249.1,162",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	num_active_debit_accounts	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="num_active_debit_accounts
+
+ ",
+		penwidth=1,
+		pos="755.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	num_active_debit_accounts -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.39,2.1247 753.41,80.979 744.2,75.608 699.9,50.484 660.15,40 584.95,20.17 328.93,4.8443 285.45,2.3549",
+		weight=-49.33645108549045];
+	num_active_debit_accounts -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.16,42.197 752.95,81.785 723.3,78.878 402.4,47.417 353.41,42.614",
+		weight=11.938123533358517];
+	num_active_debit_accounts -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.1,42.494 753.15,81.494 737.14,77.442 629.66,50.23 603.08,43.502",
+		weight=56.19646875845595];
+	num_total_cc_accounts	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="num_total_cc_accounts
+
+ ",
+		penwidth=1,
+		pos="149.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	num_total_cc_accounts -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,277.19,3.2048 150.98,80.869 164.7,72.43 251.14,19.236 273.74,5.3255",
+		weight=98.3103047463279];
+	num_total_cc_accounts -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,344.94,42.446 151.37,81.551 170.65,77.656 309.51,49.604 340.87,43.269",
+		weight=-23.623897955770186];
+	num_total_cc_accounts -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.01,42.109 151.33,81.541 153.54,81.091 157.07,80.413 160.15,80 334.96,56.56 551.14,44.43 590.76,42.331",
+		weight=128.28028589255408];
+	num_total_cc_accounts -> total_collection_amount_ever	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,135.84,43.97 148.39,79.849 146.32,73.935 140.49,57.259 137.3,48.141",
+		weight=1.6383546754015916];
+	num_open_cc_accounts	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="num_open_cc_accounts
+
+ ",
+		penwidth=1,
+		pos="171.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	num_open_cc_accounts -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,277.22,3.4268 173.02,80.611 185.26,71.546 253.89,20.706 273.76,5.9905",
+		weight=-31.16533516768309];
+	num_open_cc_accounts -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,345.19,42.446 173.12,81.551 190.19,77.672 312.67,49.835 341.21,43.348",
+		weight=-3.393002938130092];
+	num_open_cc_accounts -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.12,42.116 173.33,81.544 175.54,81.096 179.07,80.42 182.15,80 348.17,57.351 553.46,44.581 591.08,42.353",
+		weight=96.77288584253543];
+	num_open_cc_accounts -> total_collection_amount_ever	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,136.65,43.668 169.6,80.281 164.42,74.524 147.55,55.78 139.5,46.835",
+		weight=1.0286632380437206];
+	num_cc_carrying_balance	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="num_cc_carrying_balance
+
+ ",
+		penwidth=1,
+		pos="777.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	num_cc_carrying_balance -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.16,2.104 775.35,80.977 765.83,75.597 720.04,50.433 679.15,40 599.75,19.742 329.18,4.6613 285.21,2.3178",
+		weight=-13.494786442605955];
+	num_cc_carrying_balance -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.2,42.115 774.96,81.544 772.75,81.095 769.22,80.418 766.15,80 598.52,57.207 391.26,44.553 353.27,42.349",
+		weight=19.98031478312882];
+	num_cc_carrying_balance -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.15,42.446 775.13,81.551 757.67,77.672 632.4,49.835 603.21,43.348",
+		weight=47.369843282768805];
+	num_mort_accounts	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="num_mort_accounts
+
+ ",
+		penwidth=1,
+		pos="837.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	num_mort_accounts -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.21,2.026 835.22,81.256 823.07,76.586 755.56,51.157 698.15,40 532.09,7.7293 323.56,2.7469 285.31,2.0903",
+		weight=294.11821717699655];
+	num_mort_accounts -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.17,42.165 834.96,81.822 802.06,79.135 407.68,46.941 353.34,42.506",
+		weight=-24.49718848999878];
+	num_mort_accounts -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.34,42.408 834.89,81.639 817.4,78.84 701.85,60.292 608.15,44 606.62,43.734 604.97,43.439 603.43,43.159",
+		weight=-1.767670817725846];
+	account_never_delinq_percent	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="account_never_delinq_percent
+
+ ",
+		penwidth=1,
+		pos="509.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	account_never_delinq_percent -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.23,2.5612 507.17,81.135 496.67,76.56 446.38,54.836 404.15,40 359.16,24.196 303.76,8.7215 285.39,3.6939",
+		weight=85.25737636653355];
+	account_never_delinq_percent -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.15,42.494 507.1,81.494 490.69,77.442 380.48,50.23 353.23,43.502",
+		weight=40.39829748935734];
+	account_never_delinq_percent -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,595.32,42.831 510.99,81.165 521.45,76.406 573.7,52.657 591.33,44.645",
+		weight=75.61728005971727];
+	tax_liens	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="tax_liens
+
+ ",
+		penwidth=1,
+		pos="619.15,42",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	tax_liens -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.24,2.1892 616.96,41.56 614.75,41.123 611.22,40.456 608.15,40 478.58,20.759 319.08,5.6704 285.52,2.5808",
+		weight=1.3262752651367384];
+	public_record_bankrupt	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="public_record_bankrupt
+
+ ",
+		penwidth=1,
+		pos="608.15,162",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	public_record_bankrupt -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.2,2.003 610.38,161.98 656.05,161.47 1387.3,152.92 1420.1,124 1435,110.91 1430.7,99.484 1427.1,80 1423.8,61.318 1427.6,51.075 \
+1412.1,40 1363.3,4.8964 373.24,2.1823 285.37,2.0105",
+		weight=-0.8334697830262746];
+	public_record_bankrupt -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.33,42.45 610.37,161.88 642.85,160.1 1019.7,138.07 967.15,80 940.25,50.272 647.84,49.59 608.15,44 606.61,43.783 604.96,43.507 \
+603.42,43.229",
+		weight=-1.6695656334812794];
+	loan_purpose	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="loan_purpose
+
+ ",
+		penwidth=1,
+		pos="575.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	loan_purpose -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.33,2.336 573.28,81.204 562.52,76.632 507.15,53.442 460.15,40 392.71,20.713 308.56,6.6708 285.33,2.9675",
+		weight=23.04771351994632];
+	loan_purpose -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.29,42.369 572.96,81.597 570.74,81.19 567.2,80.546 564.15,80 480.84,65.133 379.44,47.58 353.45,43.089",
+		weight=-1.8335073574420353];
+	loan_purpose -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,596.06,43.97 576.33,79.849 579.64,73.825 589.1,56.637 594.04,47.643",
+		weight=1.2714814501342193];
+	application_type	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="application_type
+
+ ",
+		penwidth=1,
+		pos="1083.1,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	application_type -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.17,2.056 1080.8,81.491 1062.3,77.571 940.47,52.014 840.15,40 612.42,12.73 330.17,3.5079 285.29,2.1755",
+		weight=10.957790273972744];
+	application_type -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.33,42.465 1081,81.535 1078.8,81.08 1075.2,80.398 1072.1,80 867.01,53.465 813.28,70.535 608.15,44 606.61,43.801 604.96,43.531 \
+603.41,43.254",
+		weight=-1.6380975142271315];
+	loan_amount	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="loan_amount
+
+ ",
+		penwidth=1,
+		pos="859.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	loan_amount -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.32,2.0161 857.21,81.253 844.97,76.566 776.97,51.049 719.15,40 544.73,6.6718 325.77,2.5453 285.62,2.0615",
+		weight=17.23618527530678];
+	loan_amount -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.27,42.075 856.97,81.534 854.75,81.078 851.23,80.396 848.15,80 646.12,54.044 395.82,43.823 353.39,42.227",
+		weight=-0.9543508275862111];
+	loan_amount -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.34,42.418 856.96,81.582 854.74,81.162 851.21,80.508 848.15,80 741.74,62.351 714.55,61.649 608.15,44 606.62,43.746 604.97,43.455 \
+603.42,43.176",
+		weight=0.9499961275370621];
+	term	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="term
+
+ ",
+		penwidth=1,
+		pos="329.15,122",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	term -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,277.14,2.2262 326.91,121.91 299.49,120.84 28.941,109.63 6.1471,84 -32.484,40.558 229.73,7.7876 273.13,2.6912",
+		weight=112.46059406692702];
+	term -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,346.65,44.202 329.59,120.02 331.83,110.08 341.89,65.359 345.69,48.478",
+		weight=13.622242944669882];
+	term -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,598.65,43.857 331.21,121.74 356.52,118.52 605.71,86.796 608.15,84 617.35,73.46 607.42,56.123 601.27,47.387",
+		weight=-17.619249164550116];
+	term -> loan_amount	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,856.97,82.468 331.34,121.93 358.4,121.05 630.36,111.69 848.15,84 849.69,83.804 851.34,83.535 852.88,83.258",
+		weight=0.8799810820345363];
+	interest_rate	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="interest_rate
+
+ ",
+		penwidth=1,
+		pos="919.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	interest_rate -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.41,2.057 917.04,81.38 902.38,77.091 813.93,51.631 740.15,40 556.05,10.979 326.88,3.3464 285.65,2.1732",
+		weight=-38.772522589128776];
+	interest_rate -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.52,42.166 917.08,81.855 882.08,79.408 414.62,46.718 353.68,42.457",
+		weight=27.28338323081365];
+	interest_rate -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.33,42.436 916.87,81.713 913.77,81.323 908.04,80.604 903.15,80 772.06,63.808 738.74,63.822 608.15,44 606.61,43.767 604.96,43.484 \
+603.42,43.206",
+		weight=-30.83802542342278];
+	installment	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="installment
+
+ ",
+		penwidth=1,
+		pos="299.15,162",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	installment -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.43,2.0376 301.51,161.98 349.89,161.49 1125.4,153.31 1220.1,124 1280.6,105.3 1379.1,85.553 1335.1,40 1315.7,19.854 372.95,3.5731 \
+285.61,2.1075",
+		weight=-103.6954671846369];
+	installment -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,346.29,44.14 299.98,159.92 305.42,146.32 335.92,70.059 344.75,47.986",
+		weight=24.26461843336363];
+	installment -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.25,42.381 301.11,161.4 314.78,157.23 397.31,132.45 466.15,120 537,107.19 740.15,137.67 788.15,84 789.33,82.675 789.27,81.374 \
+788.15,80 785.09,76.279 636.22,49.088 603.47,43.145",
+		weight=-5.098944860875432];
+	installment -> loan_amount	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,856.96,82.45 301.42,161.4 317.27,157.26 412.9,132.59 492.15,120 649.21,95.052 690.68,106.24 848.15,84 849.68,83.783 851.34,83.506 \
+852.88,83.228",
+		weight=5.935774670149148];
+	balance	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="balance
+
+ ",
+		penwidth=1,
+		pos="1309.1,42",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	installment -> balance	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,1307.9,43.599 301.47,161.98 348.9,161.48 1109.3,153.11 1202.1,124 1249.9,109.02 1292.5,61.837 1305.3,46.714",
+		weight=5.393139833140788];
+	paid_total	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="paid_total
+
+ ",
+		penwidth=1,
+		pos="525.15,122",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	installment -> paid_total	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,522.96,122.4 301.27,161.63 317.67,158.76 426.1,139.79 514.15,124 515.68,123.73 517.32,123.43 518.87,123.15",
+		weight=1.1036641566350103];
+	balance -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.29,2.0834 1306.9,41.912 1256.1,39.94 369.25,5.4992 285.48,2.2461",
+		weight=-10.964831313690095];
+	paid_total -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.4,2.0382 527.29,121.96 568.49,121.28 1190.1,110.55 1265.1,84 1294.7,73.559 1341.9,62.536 1320.1,40 1301,20.135 371.62,3.5992 \
+285.52,2.1093",
+		weight=-15.438975667958696];
+	paid_total -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.13,42.892 523.15,121.1 505.82,113.31 380.99,57.208 352.79,44.538",
+		weight=2.912047861365797];
+	paid_total -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.33,42.447 527.27,121.98 558.41,121.69 921.38,117.63 952.15,84 1004.1,27.221 684.33,54.896 608.15,44 606.61,43.78 604.96,43.502 \
+603.42,43.224",
+		weight=-3.7245513269719552];
+	paid_total -> loan_amount	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,856.96,82.439 527.2,121.81 547.51,119.9 714.13,104.05 848.15,84 849.68,83.77 851.33,83.489 852.88,83.21",
+		weight=0.8572562990714203];
+	paid_total -> balance	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,1307.4,43.718 527.24,121.96 567.41,121.16 1173.5,108.73 1247.1,84 1271.3,75.89 1294.8,55.591 1304.5,46.512",
+		weight=1.452926043339016];
+	paid_principal	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="paid_principal
+
+ ",
+		penwidth=1,
+		pos="1143.1,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	paid_total -> paid_principal	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,1140.9,82.329 527.31,121.91 556.41,120.76 872.75,107.91 1127.1,84 1130.4,83.697 1133.9,83.261 1136.9,82.873",
+		weight=0.9331756018389539];
+	paid_principal -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.54,2.0102 1144.1,80.08 1147.4,73.465 1157.1,51.407 1146.1,40 1114.5,6.9833 363.78,2.4159 285.7,2.0298",
+		weight=5.769684373978218];
+	paid_principal -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.29,42.108 1140.9,81.885 1096.7,79.666 425.72,45.948 353.44,42.316",
+		weight=-2.1626769764989207];
+	paid_principal -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.33,42.469 1140.9,81.875 1107.9,80.03 721.32,58.264 608.15,44 606.61,43.806 604.95,43.538 603.41,43.261",
+		weight=4.118265844398074];
+	paid_principal -> balance	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,1307.1,42.494 1145.2,81.494 1162.1,77.442 1275,50.23 1302.9,43.502",
+		weight=-1.4126635167959476];
+	grade	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="grade
+
+ ",
+		penwidth=1,
+		pos="941.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	grade -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.2,2.0394 939.06,81.377 924.48,77.063 836.55,51.473 763.15,40 569.09,9.6708 327.28,3.0705 285.45,2.1303",
+		weight=-14.057233064812044];
+	grade -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.25,42.043 938.97,81.527 936.76,81.066 933.23,80.379 930.15,80 693.63,50.887 400.2,43.205 353.53,42.138",
+		weight=5.90369215593217];
+	grade -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.33,42.443 938.96,81.557 936.75,81.119 933.22,80.451 930.15,80 787.67,59.108 750.63,64.892 608.15,44 606.61,43.775 604.96,43.495 \
+603.42,43.217",
+		weight=-7.51540442055393];
+	sub_grade	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="sub_grade
+
+ ",
+		penwidth=1,
+		pos="597.15,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	sub_grade -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.22,2.0592 599.22,80.92 608.35,76.021 644.02,55.458 630.15,40 606.1,13.208 330.55,3.5866 285.39,2.1852",
+		weight=-75.47120239352463];
+	sub_grade -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,349.51,42.355 594.96,81.587 592.74,81.172 589.21,80.522 586.15,80 494.13,64.322 381.82,47.236 353.74,42.994",
+		weight=35.59920263551296];
+	sub_grade -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,597.15,44.36 597.15,79.849 597.15,73.99 597.15,57.572 597.15,48.401",
+		weight=-41.2463278563669];
+	issue_month	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="issue_month
+
+ ",
+		penwidth=1,
+		pos="1203.1,82",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	issue_month -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.55,2.053 1201.9,79.901 1197.4,72.702 1181.5,48.965 1161.1,40 1118.6,21.288 364.16,3.9054 285.72,2.1461",
+		weight=5.161419216778156];
+	issue_month -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.33,42.474 1201.1,81.901 1167.4,80.298 734.52,59.471 608.15,44 606.61,43.811 604.95,43.545 603.41,43.269",
+		weight=-1.6975368246314468];
+	loan_status	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="loan_status
+
+ ",
+		penwidth=1,
+		pos="1409.1,122",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	loan_status -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.23,2.0332 1409.6,120.06 1412,109.83 1421.6,61.869 1397.1,40 1375,20.205 374.31,3.5425 285.44,2.1011",
+		weight=-1.6320245896188392];
+	initial_listing_status	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="initial_listing_status
+
+ ",
+		penwidth=1,
+		pos="1135.1,42",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	initial_listing_status -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.25,2.0302 1132.9,41.658 1129.8,41.206 1124.1,40.417 1119.1,40 771.8,10.481 341.58,2.9684 285.31,2.0919",
+		weight=1.736169992935034];
+	disbursement_method	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="disbursement_method
+
+ ",
+		penwidth=1,
+		pos="225.15,122",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	disbursement_method -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,277.07,2.1864 222.81,121.79 199.93,119.66 16.419,102.08 1.1471,84 0,82.642 0.40145,81.614 1.1471,80 12.653,55.1 23.261,51.536 \
+48.147,40 90.149,20.53 240.33,5.6198 272.89,2.5725",
+		weight=-2.0313637579807424];
+	disbursement_method -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,344.96,42.256 225.72,119.73 227.57,112.78 234.09,91.581 247.15,80 275.85,54.532 323.37,45.42 340.63,42.853",
+		weight=0.9607933972377904];
+	paid_interest	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="paid_interest
+
+ ",
+		penwidth=1,
+		pos="503.15,122",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	paid_interest -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.32,2.026 505.33,121.53 507.54,121.06 511.06,120.37 514.15,120 578.27,112.21 1135.7,129.48 1094.1,80 1038.8,14.076 358.75,3.0761 \
+285.53,2.081",
+		weight=-20.28351364933467];
+	paid_interest -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,348.44,43.533 500.93,121.57 489.22,119.22 433.52,107.19 394.15,84 376.32,73.499 359.19,55.601 351.45,46.959",
+		weight=6.556824234164388];
+	paid_interest -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.33,42.426 505.33,121.55 507.54,121.11 511.07,120.43 514.15,120 592.88,108.88 816.83,142.99 870.15,84 909.64,40.309 666.31,\
+53.279 608.15,44 606.61,43.755 604.96,43.468 603.42,43.189",
+		weight=-6.885904154008423];
+	paid_interest -> loan_amount	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,856.96,82.445 505.33,121.55 507.55,121.11 511.07,120.44 514.15,120 661.91,98.632 700.38,105.37 848.15,84 849.68,83.778 851.33,\
+83.499 852.88,83.221",
+		weight=2.518851460456911];
+	paid_interest -> balance	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,1307.4,43.056 505.33,121.52 507.54,121.05 511.06,120.36 514.15,120 823.59,84.062 911.1,156.18 1214.1,84 1250.4,75.367 1290,53.309 \
+1304,45.121",
+		weight=3.788620472391872];
+	paid_interest -> paid_principal	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,1140.9,82.332 505.33,121.52 507.54,121.06 511.06,120.37 514.15,120 785.12,87.53 855.38,108.94 1127.1,84 1130.4,83.705 1133.9,83.269 \
+1136.9,82.879",
+		weight=-0.8228476977940192];
+	paid_late_fees	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="paid_late_fees
+
+ ",
+		penwidth=1,
+		pos="268.15,162",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+	paid_late_fees -> total_credit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,281.22,2.0235 270.25,161.78 273.89,161.4 281.62,160.61 288.15,160 384.32,150.97 1088.9,155.22 1154.1,84 1216.9,15.471 367.59,3.1089 \
+285.5,2.0756",
+		weight=-0.9323769917135901];
+	paid_late_fees -> total_credit_utilized	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,345.96,43.807 269.26,160.3 277.56,147.7 329.69,68.516 343.69,47.251",
+		weight=-1.4441625432080258];
+	paid_late_fees -> total_debit_limit	 [arrowhead=normal,
+		arrowsize=0.4,
+		color="#ffffff33;0.03:#ffffff36;0.03:#ffffff3a;0.03:#ffffff3e;0.03:#ffffff42;0.03:#ffffff46;0.03:#ffffff4a;0.03:#ffffff4e;0.03:#ffffff52;\
+0.03:#ffffff56;0.03:#ffffff5a;0.03:#ffffff5e;0.03:#ffffff62;0.03:#ffffff66;0.03:#ffffff6a;0.03:#ffffff6e;0.03:#ffffff72;0.03:#ffffff76;\
+0.03:#ffffff7a;0.03:#ffffff7e;0.03:#ffffff82;0.03:#ffffff86;0.03:#ffffff8a;0.03:#ffffff8e;0.03:#ffffff92;0.03:#ffffff96;0.03:#ffffff9a;\
+0.03:#ffffff9e;0.03:#ffffffa2;0.03:#ffffffa6;0.03:#ffffffaa;0.03",
+		origin=learned,
+		penwidth=0.25,
+		pos="e,599.23,42.412 270.2,161.42 284.49,157.42 370.7,133.55 442.15,120 499.24,109.17 662.99,127.83 701.15,84 715.29,67.753 627.31,48.218 \
+603.16,43.213",
+		weight=-1.0853742904078318];
+	Is_bad_loan	 [color="#FFFFFFD9",
+		fillcolor="#4a90e2d9",
+		fixedsize=True,
+		fontcolor="#FFFFFF8c",
+		fontname=Helvetica,
+		fontsize=10,
+		height=0.055556,
+		label="Is_bad_loan
+
+ ",
+		penwidth=1,
+		pos="1271.1,162",
+		shape=circle,
+		style=filled,
+		width=0.055556];
+}
+
